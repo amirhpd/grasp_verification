@@ -30,10 +30,10 @@ Details about codes and files are [here](Details.md)
 
 ## Contributions
 Author:  <br />
-Amirhossein Pakdaman <br />
+[Amirhossein Pakdaman](https://github.com/amirhpd) <br />
 Supervisors:  <br />
 Prof. Dr. Paul G. Plöger, <br />
-Deebul Nair [(deebuls)](https://github.com/deebuls)  <br />
+[Deebul Nair](https://github.com/deebuls)  <br />
 Supported by: [Master of Science in Autonomous Systems, Hochschule Bonn-Rhein-Sieg](https://www.h-brs.de/en/inf/study/master/autonomous-systems).
 
 ### Reference to images:
