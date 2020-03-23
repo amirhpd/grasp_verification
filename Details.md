@@ -73,7 +73,7 @@ Code used inside *Sipeed* camera. <br />
 Loads a model file with name *model.kmodel*, performs inference, and calculates 
 *fps* and *runtime* values.
 
-## [dataset_1\.zip](dataset_1.zip) , [dataset_2\.zip](dataset_2.zip)
+## Datasets
 Datasets collected particularly for this project. <br />
 Images are taken with *JeVois* smart camera mounted on the *YouBot* gripper. 
 Contains images of *grasped* and *not grasped* situations of different objects and 
@@ -82,11 +82,11 @@ with different backgrounds and lightings.
 * Image size: 128x128 
 * Augmented: No 
 
-dataset_1\.zip : Contains 2134 items for *grasped* class and 2191 items for 
+[dataset_1\.zip](dataset_1.zip) : Contains 2134 items for *grasped* class and 2191 items for 
 *notgrasped* class. 
 Training this dataset will result in **good** accuracy. 
 (Tested with fine-tuned MobileNets, single block ResNet) <br />
-dataset_2\.zip : contains 2376 items for *grasped* class and 2307 items for 
+[dataset_2\.zip](dataset_2.zip) : contains 2376 items for *grasped* class and 2307 items for 
 *notgrasped* class. 
 Training this dataset will result in **bad** accuracy. 
 (Tested with fine-tuned MobileNets, single block ResNet)
