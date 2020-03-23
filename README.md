@@ -36,6 +36,6 @@ Prof. Dr. Paul G. Plöger <br />
 Deebul Nair [(deebuls)](https://github.com/deebuls)
 
 ### Reference to images:
-[1] wwww.openmv.io/products/openmv-cam-h7  <br />
-[2] www.seeedstudio.com/Sipeed-MAix-BiT-for-RISC-V-AI-IoT-p-2872.html  <br />
-[3] www.jevoisinc.com/
+[1] https://openmv.io/products/openmv-cam-h7  <br />
+[2] https://www.seeedstudio.com/Sipeed-MAix-BiT-for-RISC-V-AI-IoT-p-2872.html  <br />
+[3] https://www.jevoisinc.com/
