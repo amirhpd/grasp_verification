@@ -1,2 +1,25 @@
-# grasp_verification
-Github repository for the project: **Embedded Deep Learning for Image-Based Grasp Verification**
+# Embedded Deep Learning for Image-Based Grasp Verification
+## Abstract
+Artificial neural networks are assumed to be a solution to many modern 
+computational problems. This branch of science is evolving quickly and finding its place in
+many areas including embedded devices. According to recent advances in the area
+of embedded and mobile devices, the possibility of implementing a neural network
+algorithm on a small mobile device has been achieved.
+
+This project studies the implementation of artificial neural networks on special
+smart cameras that are able to perform on-board processing. Capabilities and
+limitations of these smart cameras when they perform image classification are
+investigated through this project. In order to do so, different experiments are
+conducted and the results are compared to present a benchmark on these devices.
+A robotic application of the introduced smart cameras is also studied. Particularly,
+a visual-based grasp verification system is conducted and examined. Benefits and
+problems of running deep learning algorithms on vision-based embedded devices in
+real-world robotics are studied through the experiments. Besides, some approaches
+to properly perform the experiments are introduced.
+
+## About This Repository
+This Repository contains codes, datasets, and CNN model files related to the project: <br />
+**Embedded Deep Learning for Image-Based Grasp Verification** <br />
+and paper: <br />
+**Performance Evaluation of Low-Cost Machine Vision Cameras for Image-Based 
+Grasp Verification** <br />
