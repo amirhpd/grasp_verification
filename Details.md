@@ -1,5 +1,19 @@
 # Description of codes and files
 
+## [model_generator\.ipynb](model_generator.ipynb)
+IPython notebook for generating ranges of CNN models. Resulting models are used in the
+benchmarking experiment. <br />
+Generates CNN models with *Conv2D* layers and with *DepthwiseConv2D* layers.
+Receives ranges for hyper-parameters:
+* Image size
+* No. of filters (only for Conv2D models)
+* No. of blocks
+* No. of outputs
+
+and generates many CNN models with different 
+combinations of these hyper-parameters. 
+All models are saved as model files with *.h5* file format.
+
 ## [dataset_generator\.py](dataset_generator.py)
 Receives the video from camera, splits it
 to frames, converts the size to 128x128 pixels, and saves images with a naming
