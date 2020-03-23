@@ -12,7 +12,10 @@ Receives ranges for hyper-parameters:
 
 and generates many CNN models with different 
 combinations of these hyper-parameters. 
-All models are saved as model files with *.h5* file format.
+All models are saved as model files with *.h5* file format. <br />
+CNN architecture is shown below:
+
+![alt text](https://github.com/amirhpd/grasp_verification/blob/master/Images/custom_models.png "Custom CNNs structure")
 
 ## [dataset_generator\.py](dataset_generator.py)
 Receives the video from camera, splits it
