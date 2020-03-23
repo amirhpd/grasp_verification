@@ -22,4 +22,12 @@ This Repository contains codes, datasets, and CNN model files related to the pro
 **Embedded Deep Learning for Image-Based Grasp Verification** <br />
 and paper: <br />
 **Performance Evaluation of Low-Cost Machine Vision Cameras for Image-Based 
-Grasp Verification** <br />
+Grasp Verification** <br /> <br />
+Details about codes and files are [here](details.md)
+
+## Contributions
+Author:  <br />
+Amirhossein Pakdaman <br />
+Supervisors:  <br />
+Prof. Dr. Paul G. Plöger <br />
+Deebul Nair [(deebuls)](https://github.com/deebuls)
