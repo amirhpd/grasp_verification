@@ -1,4 +1,23 @@
 # Description of codes and files
+
+## [dataset_generator\.py](dataset_generator.py)
+Receives the video from camera, splits it
+to frames, converts the size to 128x128 pixels, and saves images with a naming
+convention into a defined folder. The following terminal command will execute the
+code:
+```
+$python3 dataset_generator.py <className> <framesInterval>
+```
+Where *className* is a string that specifies the name of the folder in which images
+are saved and *framesInterval* is an integer number for setting the video split rate.
+
+## [model_converter\.py](model_converter.py)
+Converts CNN model files created by *keras* library (with *.h5* file format) to:
+* *TensorFlow Lite* model files (with *.tflite* file format) for *JeVois* Camera.
+* *Kendryte* model files (with *.kmodel* file format) for *Sipeed* Camera.
+
+Needs [nncase](https://github.com/kendryte/nncase) library.
+
 ## [Inference\.py](Inference.py)
 Provides a method to systematically measure the accuracy of the
 image classification done by the smart camera while the gripper is operating. <br />
@@ -21,9 +40,10 @@ with *.csv* format. After executing this code, a table and a video are saved on 
 host computer.
 
 ## [Evaluate\.py](Evaluate.py)
-This code reads the video and table that are already created by the inference code, 
+Reads the video and table that are already created by the inference code, 
 plays the video for the human evaluator, and saves the result of the classification 
-on the table file. During the video,the human is asked to press keyboard button 
+on the table file. <br />
+During the video,the human is asked to press keyboard button 
 *G* when *grasped* state is shown and press *N* when the state is *not grasped*. 
 After playing the video, one column in the
 table contains results of the classification by the smart camera and another column
@@ -34,3 +54,21 @@ are always true, the video frames with unequal classification results are the mi
 of the smart camera. They can be labeled based on the human results and added to
 the dataset. A folder called *suggestions* containing the two
 classes is created after running the code.
+
+## [camBot\.py](camBot.py)
+For the grasp verification experiment with YouBot, instead of a human evaluator, 
+the state of the gripper is considered.
+During the operation the host computer collects data from two sources of information:
+* The status of the robot is stored based on the sent commands.
+* The inference results and video received from the smart camera are also stored.
+
+After one cycle is finished, the real-world accuracy is measured by comparing the
+inference results from the smart camera with the state of the gripper.
+For each cycle a file with *.csv* format containing all the mentioned information 
+and the output video recorded by the smart camera are saved on the host computer.
+Besides, suggestions for expanding the dataset are generated and stored.
+
+## [sipeed_code\.py](sipeed_code.py)
+Code used inside Sipeed camera. <br />
+Loads a model file with name *model.kmodel*, performs inference, and calculates 
+*fps* and *runtime* values.
