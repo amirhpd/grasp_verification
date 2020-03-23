@@ -108,11 +108,11 @@ Training this dataset will result in **good** accuracy.
 Training this dataset will result in **bad** accuracy. 
 (Tested with fine-tuned MobileNets, single block ResNet)
 
-## Custom_CNN_Architectures
+## Custom CNN Architectures
 Details [here](Custom_CNN_Architectures/README.md)
 
-## Fine_tuned_MobileNets
+## Fine tuned MobileNets
 Details [here](Fine_tuned_MobileNets/README.md)
 
-## Single_Block_ResNet
+## Single Block ResNet
 Details [here](Single_Block_ResNet/README.md)
