@@ -1,7 +1,5 @@
 # Embedded Deep Learning for Image-Based Grasp Verification
 
-![alt text](https://github.com/amirhpd/grasp_verification/blob/master/Images/cams.png "Smart Cameras")
-
 ## Abstract
 Artificial neural networks are assumed to be a solution to many modern 
 computational problems. This branch of science is evolving quickly and finding its place in
@@ -20,6 +18,8 @@ problems of running deep learning algorithms on vision-based embedded devices in
 real-world robotics are studied through the experiments. Besides, some approaches
 to properly perform the experiments are introduced.
 
+![alt text](https://github.com/amirhpd/grasp_verification/blob/master/Images/cams.png "Smart Cameras")
+
 ## About This Repository
 This Repository contains codes, datasets, and CNN model files related to the project: <br />
 **Embedded Deep Learning for Image-Based Grasp Verification** <br />
@@ -34,3 +34,8 @@ Amirhossein Pakdaman <br />
 Supervisors:  <br />
 Prof. Dr. Paul G. Plöger <br />
 Deebul Nair [(deebuls)](https://github.com/deebuls)
+
+### Reference to images:
+[1] wwww.openmv.io/products/openmv-cam-h7  <br />
+[2] www.seeedstudio.com/Sipeed-MAix-BiT-for-RISC-V-AI-IoT-p-2872.html  <br />
+[3] www.jevoisinc.com/
