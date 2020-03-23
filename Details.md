@@ -69,6 +69,33 @@ and the output video recorded by the smart camera are saved on the host computer
 Besides, suggestions for expanding the dataset are generated and stored.
 
 ## [sipeed_code\.py](sipeed_code.py)
-Code used inside Sipeed camera. <br />
+Code used inside *Sipeed* camera. <br />
 Loads a model file with name *model.kmodel*, performs inference, and calculates 
 *fps* and *runtime* values.
+
+## [dataset_1\.zip](dataset_1.zip) , [dataset_2\.zip](dataset_2.zip)
+Datasets collected particularly for this project. <br />
+Images are taken with *JeVois* smart camera mounted on the *YouBot* gripper. 
+Contains images of *grasped* and *not grasped* situations of different objects and 
+with different backgrounds and lightings.
+* Classes: grasped, notgrasped 
+* Image size: 128x128 
+* Augmented: No 
+
+dataset_1\.zip : Contains 2134 items for *grasped* class and 2191 items for 
+*notgrasped* class. 
+Training this dataset will result in **good** accuracy. 
+(Tested with fine-tuned MobileNets, single block ResNet) <br />
+dataset_2\.zip : contains 2376 items for *grasped* class and 2307 items for 
+*notgrasped* class. 
+Training this dataset will result in **bad** accuracy. 
+(Tested with fine-tuned MobileNets, single block ResNet)
+
+## Custom_CNN_Architectures
+Details [here](Custom_CNN_Architectures/README.md)
+
+## Fine_tuned_MobileNets
+Details [here](Fine_tuned_MobileNets/README.md)
+
+## Single_Block_ResNet
+Details [here](Single_Block_ResNet/README.md)
