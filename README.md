@@ -23,7 +23,7 @@ This Repository contains codes, datasets, and CNN model files related to the pro
 and paper: <br />
 **Performance Evaluation of Low-Cost Machine Vision Cameras for Image-Based 
 Grasp Verification** <br /> <br />
-Details about codes and files are [here](details.md)
+Details about codes and files are [here](Details.md)
 
 ## Contributions
 Author:  <br />
