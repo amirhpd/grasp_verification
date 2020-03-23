@@ -10,10 +10,10 @@ specific task.
 IPython notebook for generating and training custom CNN architecture with *Conv2D* layers.
 The resulting model files are used for the grasp verification tasks.
 This code 
-* generates a simple CNN model
-* trains the model
-* prints confusion matrix
-* saves the trained model as *.h5* and *.tflite* files 
+* Generates a simple CNN model.
+* Trains the model.
+* Prints confusion matrix.
+* Saves the trained model as *.h5* and *.tflite* files.
 
 ## [conv2d\.h5](conv2d.h5)
 Trained model file from *keras* library. This file contains the detais and 
