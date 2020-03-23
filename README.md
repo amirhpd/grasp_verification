@@ -32,8 +32,9 @@ Details about codes and files are [here](Details.md)
 Author:  <br />
 Amirhossein Pakdaman <br />
 Supervisors:  <br />
-Prof. Dr. Paul G. Plöger <br />
-Deebul Nair [(deebuls)](https://github.com/deebuls)
+Prof. Dr. Paul G. Plöger, <br />
+Deebul Nair [(deebuls)](https://github.com/deebuls)  <br />
+Supported by: [Master of Science in Autonomous Systems, Hochschule Bonn-Rhein-Sieg](https://www.h-brs.de/en/inf/study/master/autonomous-systems).
 
 ### Reference to images:
 [1] https://openmv.io/products/openmv-cam-h7  <br />
