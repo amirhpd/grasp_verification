@@ -25,7 +25,7 @@ This Repository contains codes, datasets, and CNN model files related to the pro
 **Embedded Deep Learning for Image-Based Grasp Verification** <br />
 and paper: <br />
 **Performance Evaluation of Low-Cost Machine Vision Cameras for Image-Based 
-Grasp Verification** <br /> <br />
+Grasp Verification** [ArXiv](https://arxiv.org/abs/2003.10167) <br /> <br />
 Details about codes and files are [here](Details.md)
 
 ## Contributions
